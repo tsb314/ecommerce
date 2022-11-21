@@ -36,6 +36,7 @@ const Slideshow = () => {
       return () => {
         resetTimeout();
       };
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [index]);
 
     const handleArrow = (direction) =>{

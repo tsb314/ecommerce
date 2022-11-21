@@ -49,6 +49,7 @@ const ButtonWrapper = ({ currency, showSpinner }) => {
                 currency: currency,
             },
         });
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currency, showSpinner]);
 
 

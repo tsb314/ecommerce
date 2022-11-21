@@ -3,6 +3,7 @@ import styles from '../styles/BestsellerList.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 
+// eslint-disable-next-line react/display-name
 const ImageLink = React.forwardRef(({href, onClick, product}, ref) => { 
   return(
     <a href={href} onClick={onClick} ref={ref}>
