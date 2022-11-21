@@ -1,0 +1,68 @@
+.container {
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.arrowContainer {
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.iconLeft{
+    color: #bf7e78;
+    font-size: 2rem;
+    padding-left: 1.25rem;
+}
+
+.iconRight{
+    color: #bf7e78;
+    font-size: 2rem;
+    padding-right: 1.25rem;
+}
+
+.wrapper{
+    width: 300vw;
+    height: 100%;
+    display: flex;
+    transition: ease 1000ms;
+}
+
+.imgContainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+    .container{
+        height: 70vh;
+    }
+   .iconLeft{
+        font-size: 1.5rem;
+    }
+    
+    .iconRight{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        height: 50vh;
+    }
+    .iconLeft{
+        font-size: 1rem;
+    }
+    
+    .iconRight{
+        font-size: 1rem;
+    }
+
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.container{
+    background-color: #d9b2a9;
+    width: 100%;
+    bottom: 0;
+    padding-top: 2rem;
+}
+
+.footerBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0.625rem 2.5rem;
+}
+.logo{
+    font-family: 'Monoton', cursive;
+    font-size: 2rem;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.boxes span{
+    font-weight: 600;
+}
+
+.signUp{
+    display: flex;
+}
+
+.footer{
+    border-top: 2px solid;
+    border-color: #000000;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1024px){
+    .boxes{
+        margin-right: 3rem;
+    }    
+}
+
+@media screen and (max-width: 480px){
+    .boxes{
+        text-align: center;
+        margin: 1rem 3rem;
+    }    
+}
+
+
+
+
