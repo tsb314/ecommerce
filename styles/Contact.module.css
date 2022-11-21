@@ -3,35 +3,26 @@
     height: 100vh;
 }
 .bannerContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     height: 35vh;
-    background-image: url(/imgs/curlyhair-models-standing.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 55%;
-    background-attachment: fixed;
+    overflow: hidden;
     position: relative;
     z-index: -2;
 }
 .bannerContainer::before{
-    content: '';
+    content: 'CONTACT US';
+    font-size: 5rem;
+    padding: 4rem 0rem;
+    text-align: center;
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #d9b2a9;
-    opacity: 0.7;
-    z-index: -1;
-}
-
-.bannerText{
-    text-transform: uppercase;
-    font-size: 5rem;
+    /* background-color: #d9b2a9; */
     color: #ffffff;
+    opacity: 0.7;
     z-index: 2;
 }
+
 .articleContainer{
     display: flex;
     flex-direction: column;
@@ -46,7 +37,7 @@
     .container{
         height: 150vh;
     }
-    .bannerText{
+    .bannerContainer::before{
         font-size: 3rem;
     }
 }
@@ -55,10 +46,7 @@
     .container{
         height: 150vh;
     }
-    .bannerContainer{
-        background-position: 50% 110%;
-    }
-    .bannerText{
+    .bannerContainer::before{
         font-size: 3rem;
     }
 }

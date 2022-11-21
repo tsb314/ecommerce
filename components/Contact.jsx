@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from '../styles/Contact.module.css'
+import Image from 'next/image'
 
 const Contact = () => {
   return (
     <div className={styles.container}>
     <div className={styles.bannerContainer}>
-      <div className={styles.bannerText}>Contact Us</div>
+      <Image src='/imgs/curlyhair-models-standing.jpg' alt='Curly hair models' layout='fill' objectFit='cover'/>
     </div>
     <div className={styles.articleContainer}>
     <h1>Thank you for your interest in Mockup Cosmetics.</h1>
