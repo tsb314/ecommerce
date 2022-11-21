@@ -22,7 +22,7 @@ const all = ({productList}) => {
 }
 
 export const getServerSideProps = async () =>{
-  const res = await axios.get('http://localhost:3000/api/products');
+  const res = await axios.get('https://shimmering-liger-884c4f.netlify.app/api/products');
   return{
    props:{
      productList: res.data,
