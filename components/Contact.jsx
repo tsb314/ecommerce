@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className={styles.container}>
     <div className={styles.bannerContainer}>
-      <Image src='/imgs/curlyhair-models-standing.jpg' alt='Curly hair models' layout='fill' objectFit='cover'/>
+      <Image src='/imgs/curlyhair-models-standing.jpg' alt='Curly hair models' layout='fill' objectFit='cover' priority={true}/>
     </div>
     <div className={styles.articleContainer}>
     <h1>Thank you for your interest in Mockup Cosmetics.</h1>

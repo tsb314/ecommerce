@@ -6,8 +6,7 @@ const About = () => {
   return (
     <div className={styles.container}>
       <div className={styles.bannerContainer}>
-        <Image src='/imgs/curlyhair-models-standing.jpg' alt='Curly hair models' layout='fill' objectFit='cover'/>
-        {/* <div className={styles.bannerText}>About Us</div> */}
+      <Image src='/imgs/curlyhair-models-standing.jpg' alt='Curly hair models' layout='fill' objectFit='cover' priority={true}/>
       </div>
       <div className={styles.articleContainer}>
          <div className={styles.sectionContainer}>

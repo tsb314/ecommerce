@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from '../styles/FAQ.module.css'
+import Image from 'next/image'
 
 const FAQ = () => {
   return (
     <div className={styles.container}>
       <div className={styles.bannerContainer}>
-        <div className={styles.bannerText}>FAQ</div>
+        <Image src='/imgs/curlyhair-models-standing.jpg' alt='Curly hair models' layout='fill' objectFit='cover' priority={true}/>
       </div>
       <div className={styles.articleContainer}>
       <h3>Do your products work on all curl textures?</h3>

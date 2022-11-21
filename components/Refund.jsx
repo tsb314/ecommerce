@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from '../styles/Refund.module.css'
+import Image from 'next/image'
 
 const Refund = () => {
   return (
     <div className={styles.container}>
       <div className={styles.bannerContainer}>
-        <div className={styles.bannerText}>Refund Policy</div>
+      <Image src='/imgs/curlyhair-models-standing.jpg' alt='Curly hair models' layout='fill' objectFit='cover' priority={true}/>
       </div>
       <div className={styles.articleContainer}>
       <h3>Refunds and Returns</h3>

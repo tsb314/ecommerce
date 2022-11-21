@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from '../styles/Shipping.module.css'
+import Image from 'next/image'
 
 const Shipping = () => {
   return (
     <div className={styles.container}>
       <div className={styles.bannerContainer}>
-        <div className={styles.bannerText}>Shipping Policy</div>
+        <Image src='/imgs/curlyhair-models-standing.jpg' alt='Curly hair models' layout='fill' objectFit='cover' priority={true}/>
       </div>
       <div className={styles.articleContainer}>
       <h3>Ground Shipping</h3>

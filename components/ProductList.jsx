@@ -16,7 +16,7 @@ const ProductList = ({productList}) => {
   return (
     <div className={styles.pageContainer}>
       <div className={styles.bannerContainer}>
-        <div className={styles.bannerText}>Products</div>
+        <Image src='/imgs/curlyhair-models-standing.jpg' alt='Curly hair models' layout='fill' objectFit='cover' priority={true}/>
       </div>
       <div className={styles.productList}>
         {productList.map((product) => {
