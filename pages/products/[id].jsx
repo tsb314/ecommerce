@@ -22,7 +22,7 @@ const Product = ({product}) => {
 }
 
 export const getServerSideProps = async ({params}) =>{
-  const res = await axios.get(`https://shimmering-liger-884c4f.netlify.app/api/products/${params.id}`);
+  const res = await axios.get(`https://mockup-cosmetics.netlify.app/api/products/${params.id}`);
   return{
    props:{
      product: res.data,

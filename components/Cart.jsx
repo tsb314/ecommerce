@@ -25,7 +25,7 @@ const Cart = () => {
 
     const createOrder = async (data) => {
         try{
-            const res = await axios.post("https://shimmering-liger-884c4f.netlify.app/api/orders", data);
+            const res = await axios.post("https://mockup-cosmetics.netlify.app/api/orders", data);
             if (res.status === 201) {
                 dispatch(reset());
                 router.push(`/order/${res.data._id}`);

@@ -21,7 +21,7 @@ const order = ({order}) => {
 }
 
 export const getServerSideProps = async ({params}) => {
-  const res = await axios.get(`https://shimmering-liger-884c4f.netlify.app/api/orders/${params.id}`);
+  const res = await axios.get(`https://mockup-cosmetics.netlify.app/api/orders/${params.id}`);
   return{
    props:{
      order: res.data,
