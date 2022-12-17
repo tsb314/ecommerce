@@ -53,7 +53,7 @@ const Review = () => {
             </div>
             </div>
             <div className={styles.reviewComment}>
-                <p>Makes my hair so soft.  I have been struggling to find products that work for my hair, and I'm so glad I found these products. My curls are defined and soft.</p>
+                <p>Makes my hair so soft.  I have been struggling to find products that work for my hair, and I am so glad I found these products. My curls are defined and soft.</p>
             </div>
         </div>
 

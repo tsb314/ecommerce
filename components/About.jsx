@@ -21,7 +21,7 @@ const About = () => {
         <div className={styles.sectionContainer}>
           <div className={styles.textContainer}>
               <h1>Our Products</h1>
-              <p>We believe healthy ingredients allow you to experience healthy hair. That's why we created natural hair products inclusive of all curly hair textures. From shampoo to styling products, we have you covered!</p>
+              <p>We believe healthy ingredients allow you to experience healthy hair. That is why we created natural hair products inclusive of all curly hair textures. From shampoo to styling products, we have you covered!</p>
             </div>
             <div className={styles.imgContainer}>
                 <Image src='/imgs/shampoo-conditioner.jpg' alt='Shampoo and Conditioner' width='500' height='500'/>
