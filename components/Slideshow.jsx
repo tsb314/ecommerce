@@ -8,9 +8,9 @@ import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons
 const Slideshow = () => {
 
   const slides = [
-    "/imgs/newslide7.png",
-    "/imgs/newslide10.png",
-    "/imgs/newslide11.png"
+    "/imgs/9.png",
+    "/imgs/10.png",
+    "/imgs/11.png"
   ];
   const delay = 3500;
 

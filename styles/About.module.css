@@ -4,7 +4,7 @@
 }
  .bannerContainer{
     width: 100%;
-    height: 35vh;
+    height: 50vh;
     overflow: hidden;
     position: relative;
     z-index: -2;
@@ -12,8 +12,9 @@
 .bannerContainer::before{
     content: 'ABOUT US';
     font-size: 5rem;
-    padding: 4rem 0rem;
+    padding: 6rem 0rem;
     text-align: center;
+    align-items: center;
     position: absolute;
     width: 100%;
     height: 100%;

@@ -10,12 +10,8 @@ const Refund = () => {
       </div>
       <div className={styles.articleContainer}>
       <h3>Refunds and Returns</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-        anim id est laborum.</p>
+      <p>Refunds are rewarded in the incident that our company failed to send your order or your order is received damaged.</p>
+      <p>Returns are not welcomed due to the nature of the product. We do not want any of our customer receiving used products.</p>
       </div>
     </div>
   )

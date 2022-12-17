@@ -1,5 +1,5 @@
 .container {
-    height: 80vh;
+    height: 100vh;
     overflow: hidden;
     position: relative;
 }
@@ -41,9 +41,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container{
-        height: 70vh;
-    }
    .iconLeft{
         font-size: 1.5rem;
     }
@@ -54,9 +51,6 @@
 }
 
 @media screen and (max-width: 480px) {
-    .container{
-        height: 50vh;
-    }
     .iconLeft{
         font-size: 1rem;
     }

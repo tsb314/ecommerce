@@ -10,19 +10,9 @@ const Shipping = () => {
       </div>
       <div className={styles.articleContainer}>
       <h3>Ground Shipping</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-        anim id est laborum.</p>
+      <p>Ground shipping is a flat rate of $5 and takes 5-7 business days after your order have been processed.</p>
       <h3>Express Shipping</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-        anim id est laborum.</p>
+      <p>Express shipping is a flat rate of $12 and takes 1-2 business days after your order is processed. Orders with express shipping will be shipped out the same day if it is placed before 12:00 PM CST.</p>
       </div>
     </div>
   )

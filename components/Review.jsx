@@ -29,11 +29,7 @@ const Review = () => {
             </div>
             </div>
             <div className={styles.reviewComment}>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                       ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>I love these products. They keep my curls defined without weighing down my hair and smells great too.</p>
             </div>
         </div> 
 
@@ -57,11 +53,7 @@ const Review = () => {
             </div>
             </div>
             <div className={styles.reviewComment}>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                       ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>Makes my hair so soft.  I have been struggling to find products that work for my hair, and I'm so glad I found these products. My curls are defined and soft.</p>
             </div>
         </div>
 
@@ -85,11 +77,7 @@ const Review = () => {
             </div>
             </div>
             <div className={styles.reviewComment}>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                       ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>I love Mockup Cosmetics products. I use it on my hair and my daughters hair. We receive a lot of compliments on our hair.</p>
             </div>
         </div> 
 
@@ -113,11 +101,7 @@ const Review = () => {
             </div>
             </div>
             <div className={styles.reviewComment}>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                       ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>From the shampoo and conditioner to the the styling products. My hair absolutely loves these products. These products keep my hair manageable and soft for days.</p>
             </div>
         </div>
         

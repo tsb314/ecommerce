@@ -4,15 +4,15 @@
 }
 .bannerContainer{
     width: 100%;
-    height: 35vh;
+    height: 50vh;
     overflow: hidden;
     position: relative;
     z-index: -2;
 }
 .bannerContainer::before{
-    content: 'FAQ';
+    content: 'FAQs';
     font-size: 5rem;
-    padding: 4rem 0rem;
+    padding: 6rem 0rem;
     text-align: center;
     position: absolute;
     width: 100%;
@@ -27,9 +27,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container{
-        height: 220vh;
-    }
     .bannerContainer::before{
         font-size: 3rem;
     }
@@ -37,7 +34,7 @@
 
 @media screen and (max-width: 480px) {
     .container{
-        height: 400vh;
+        height: 175vh;
     }
     .bannerContainer::before{
         font-size: 3rem;
