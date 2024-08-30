@@ -34,7 +34,7 @@ const Navbar = () => {
           </div>
           <div className={styles.item} onClick={(e) => {e.preventDefault() 
             setClicked(false)}}>
-          <Link href='/cart' passHref>
+          <Link href='/cart' passHref legacyBehavior>
             <div className={styles.cart}>
               <FontAwesomeIcon icon={faBagShopping}/>
               <div className={styles.counter}>{quantity}</div>
@@ -49,7 +49,7 @@ const Navbar = () => {
       </div>
 
     </div>
-  )
+  );
 }
 
 export default Navbar
